@@ -44,12 +44,12 @@ h1{
   -webkit-transition: -webkit-transform .1s;
 }
 
-.middle-circle:hover{
+.middle-circle:active{
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
 
-.middle-circle:hover .inner-circle{
+.middle-circle:active .inner-circle{
   transform: scale(0.6);
   -webkit-transform: scale(0.6);
 }
@@ -71,7 +71,7 @@ h1{
   -webkit-transform: scale(1);
 }
 
-.middle-circle:hover:after{
+.middle-circle:active:after{
   opacity: 1;
   transform: scale(1);
   -webkit-transform: scale(1);

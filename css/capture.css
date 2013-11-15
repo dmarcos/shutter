@@ -45,7 +45,7 @@ h1{
   text-align: center;
 }
 
-.middle-circle:hover{
+.middle-circle:active{
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
@@ -61,11 +61,11 @@ h1{
   -webkit-transition: opacity 0.2s ease-in-out;
 }
 
-.middle-circle:hover .inner-circle{
+.middle-circle:active .inner-circle{
   opacity: 0;
 }
 
-.middle-circle:hover:after {
+.middle-circle:active:after {
   opacity: 1;
 }
 
