@@ -45,7 +45,7 @@ h1{
   text-align: center;
 }
 
-.middle-circle:active{
+.middle-circle:touchstart{
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
 }
@@ -61,11 +61,11 @@ h1{
   -webkit-transition: opacity 0.2s ease-in-out;
 }
 
-.middle-circle:active .inner-circle{
+.middle-circle:touchstart .inner-circle{
   opacity: 0;
 }
 
-.middle-circle:active:after {
+.middle-circle:touchstart:after {
   opacity: 1;
 }
 
